@@ -11,7 +11,7 @@ const CaseStudy = (props: Props) => {
       <h1 className="lg:text-5xl my-16 1.5xl:text-[68px] 2xl:text-7xl text-3xl font-coresans font-medium text-center text-balance">
         Cases study
       </h1>
-      <DarkBG parentClass="grid md:grid-cols-3 grid-cols-1 text-white gap-8  2xl:gap-10">
+      <DarkBG parentClass="grid md:grid-cols-3 grid-cols-1 text-white gap-8 2xl:gap-10">
         <CSContent />
       </DarkBG>
     </section>
