@@ -24,7 +24,7 @@ const Hero = (props: Props) => {
             <h1 className="lg:text-6xl 1.5xl:text-[68px] 2xl:text-7xl text-3xl font-coresans font-medium text-center text-balance">
               Find leads that respond
             </h1>
-            <p className="font-coresans text-center text-sm text-balance font-normal lg:text-lg 1.5xl:text-xl">
+            <p className="font-coresans text-center text-balance font-normal lg:text-lg 1.5xl:text-xl">
               Accelerate growth with verified emails and mobile numbers - 250M
               leads
               <br />
