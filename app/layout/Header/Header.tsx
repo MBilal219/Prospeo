@@ -24,7 +24,7 @@ const Header = (props: Props) => {
   return (
     <header className="z-50 w-full fixed lg:top-8 lg:bottom-auto bottom-8 top-auto font-coresans">
       <Wrapper>
-        <div className="bg-white/80 backdrop-blur-sm drop-shadow-md p-3 rounded-xl lg:rounded-lg xs:max-w-sm lg:max-w-full mx-auto">
+        <div className="bg-white/80 backdrop-blur-md drop-shadow-md p-3 1.5xl:p-4 rounded-xl lg:rounded-lg xs:max-w-sm lg:max-w-full mx-auto">
           <div className="grid grid-cols-2 lg:grid-cols-4">
             <div className="flex items-center justify-start md:min-w-56 col-span-1">
               <Link href={"/"}>
@@ -46,8 +46,15 @@ const Header = (props: Props) => {
             >
               <Menu />
               <div className="flex justify-center items-center gap-2 2xl:text-lg">
-                <Button variant="link">Login</Button>
-                <Button variant="destructive">Get Started</Button>
+                <Button variant="link" className="1.5xl:text-lg 2xl:text-xl">
+                  Login
+                </Button>
+                <Button
+                  variant="destructive"
+                  className="1.5xl:text-lg 2xl:text-xl"
+                >
+                  Get Started
+                </Button>
               </div>
             </div>
           </div>

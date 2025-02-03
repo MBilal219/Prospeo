@@ -55,11 +55,22 @@ export default {
           "5": "hsl(var(--chart-5))",
         },
       },
+      animation: {
+        loop: "loop 15s linear infinite",
+      },
+      keyframes: {
+        loop: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" }, // Adjust based on your specific animation
+        },
+      },
       screens: {
         xs: "425px",
         "1.5xl": "1440px",
       },
-
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
