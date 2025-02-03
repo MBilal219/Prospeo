@@ -36,7 +36,7 @@ const BentoGrid = (props: Props) => {
               // className="object-cover"
             />
           </div>
-          <div className=" col-span-1 lg:col-span-3 lg:min-h-48 relative rounded-xl bg-gradient-to-r from-[#FFFBF3] to-[#FDEBCD] flex flex-col md:flex-row lg:p-6 p-4 items-center justify-between gap-6">
+          <div className="drop-shadow-md col-span-1 lg:col-span-3 lg:min-h-48 relative rounded-xl bg-gradient-to-r from-[#FFFBF3] to-[#FDEBCD] flex flex-col md:flex-row lg:p-6 p-4 items-center justify-between gap-6">
             <Image
               src="/assets/images/CTA.png"
               fill
