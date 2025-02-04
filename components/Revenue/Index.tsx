@@ -3,6 +3,7 @@ import Pentagonbackground from "@/app/common/svgs/Pentgon";
 import Wrapper from "@/app/common/Wrapper";
 import Image from "next/image";
 import React from "react";
+import Collaboration from "../Collaboration/Index";
 
 type Props = {};
 
@@ -28,6 +29,7 @@ const Revenue = (props: Props) => {
               revenues with <span className="text-red-500">Prospeo</span>
             </h1>
             <Slider />
+            <Collaboration />
           </div>
         </Wrapper>
       </div>

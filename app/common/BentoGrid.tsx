@@ -14,7 +14,7 @@ const BentoGrid = (props: Props) => {
       </h1>
       <Wrapper>
         <div className="grid lg:grid-cols-3 grid-cols-1 ">
-          <div className="col-span-1 min-h-96 rounded-xl bg-red-300 relative">
+          <div className="col-span-1 min-h-96 rounded-xl  relative">
             <Image
               src={"/assets/images/grid1.png"}
               alt="grid 1"
@@ -25,7 +25,7 @@ const BentoGrid = (props: Props) => {
               // className="object-cover"
             />
           </div>
-          <div className="lg:col-span-2 col-span-1 min-h-80 rounded-xl bg-red-300 relative">
+          <div className="lg:col-span-2 col-span-1 min-h-80 rounded-xl  relative">
             <Image
               src={"/assets/images/grid2.png"}
               alt="grid 1"
@@ -53,14 +53,14 @@ const BentoGrid = (props: Props) => {
                 <Button
                   variant={"destructive"}
                   // size="lg"
-                  className="1.5xl:text-lg 2xl:text-xl"
+                  className="1.5xl:text-lg 2xl:text-xl 1.5xl:!px-10 1.5xl:!py-6 1.5xl:rounded-xl"
                 >
                   <ButtonIcon /> Get Started for free
                 </Button>
                 <Button
                   variant={"outline"}
                   // size="lg"
-                  className="1.5xl:text-lg w-full lg:w-auto 2xl:text-xl bg-transparent !border-1 !border-[#2E0708] hover:bg-white/50"
+                  className="1.5xl:text-lg w-full lg:w-auto 2xl:text-xl bg-transparent !border-1 !border-[#2E0708] hover:bg-white/50 1.5xl:!px-10 1.5xl:!py-6 1.5xl:rounded-xl"
                 >
                   Contact Sales Team
                 </Button>

@@ -43,7 +43,7 @@ const Hero = (props: Props) => {
             <Button
               variant={"destructive"}
               size="lg"
-              className="1.5xl:text-lg 2xl:text-xl"
+              className="1.5xl:text-lg 2xl:text-xl 1.5xl:!px-10 1.5xl:!py-6 1.5xl:rounded-xl"
             >
               <ButtonIcon /> Get Started for free
             </Button>

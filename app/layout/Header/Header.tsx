@@ -46,12 +46,12 @@ const Header = (props: Props) => {
             >
               <Menu />
               <div className="flex justify-center items-center gap-2 2xl:text-lg">
-                <Button variant="link" className="1.5xl:text-lg 2xl:text-xl">
+                <Button variant="link" className="1.5xl:text-lg 2xl:text-xl ">
                   Login
                 </Button>
                 <Button
                   variant="destructive"
-                  className="1.5xl:text-lg 2xl:text-xl"
+                  className="1.5xl:text-lg 2xl:text-xl 1.5xl:!px-10 1.5xl:!py-6 1.5xl:rounded-xl"
                 >
                   Get Started
                 </Button>

@@ -33,7 +33,7 @@ const CSContent = (props: Props) => {
             addresses and phone numbers that actually pick up. Learn more
           </li>
         </ul>
-        <Tabs defaultValue="account" className="z-10 font-coresans">
+        <Tabs defaultValue="Founders" className="z-10 font-coresans">
           <TabsList>
             <TabsTrigger value="Founders">Founders</TabsTrigger>
             <TabsTrigger value="Sales Team">Sales Team</TabsTrigger>
